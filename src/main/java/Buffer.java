@@ -12,21 +12,17 @@ public class Buffer {
         pila = new LinkedList<Dato>();
     }
 
-    public synchronized void agregar(Dato a){
-        while(pila.size()==colaMax)
-        {
-            try
-            {
+    public synchronized void agregar(){
+        while(pila.size()==colaMax) {
+            try {
                 wait();
-            }
-            catch(InterruptedException e)
-            {
+            } catch (InterruptedException e) {
                 e.printStackTrace();
-            }
+            }}
+            Dato a = new Dato();
             pila.add(a);
-            System.out.println("Agregado: "+a.getDato()+ " con espacio ocupado: "+ pila.size());
+            System.out.println("Dato agregado: "+a.getDato()+ " espacio ocupado en pila actualmente: "+ pila.size());
             notify();
-        }
     }
     public synchronized void quitar() {
         while(pila.size()==0)
@@ -38,10 +34,9 @@ public class Buffer {
             catch(InterruptedException e)
             {
                 e.printStackTrace();
-            }
+            }}
             String dato_sacar = pila.poll().toString();
-            System.out.println("Quitado:" + dato_sacar + "con espacio ocupado: " + pila.size());
+            System.out.println("Dato quitado:" + dato_sacar + " espacio ocupado en pila actualmente: " + pila.size());
             notify();
-        }
     }
 }
