@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40119f87-d99c-42e5-985f-4f89dcb34576" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Comida.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Log.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Comida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Comida.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -55,11 +53,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Productor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Log.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Comida.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+              <folding>
+                <element signature="e#797#798#0" expanded="true" />
+                <element signature="e#850#851#0" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
+                <element signature="e#919#920#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,6 +119,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Dato.java" />
         <option value="$PROJECT_DIR$/src/main/java/Consumidor.java" />
         <option value="$PROJECT_DIR$/src/main/java/Productor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Comida.java" />
       </list>
     </option>
   </component>
@@ -126,6 +145,19 @@
               <item name="Tp_Concurrente_CyP" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="C:\Users\alejandro\Documents\GitHub\Tp_Concurrente_CyP" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Tp_Concurrente_CyP" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\alejandro\Documents\GitHub\Tp_Concurrente_CyP" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Tp_Concurrente_CyP" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\alejandro\Documents\GitHub\Tp_Concurrente_CyP" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -225,12 +257,12 @@
       <updated>1555192604199</updated>
       <workItem from="1555192608681" duration="561000" />
       <workItem from="1555193383564" duration="395000" />
-      <workItem from="1555193792417" duration="323000" />
+      <workItem from="1555193792417" duration="563000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1279000" />
+    <option name="totallyTimeSpent" value="1519000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -358,9 +390,25 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Productor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Comida.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding>
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Log.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
