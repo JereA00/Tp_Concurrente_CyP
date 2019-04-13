@@ -4,7 +4,7 @@ public class Dato {
         datoElegido = new Comida();
     }
     public String getDato(){
-        datoElegido.getComida();
+        return datoElegido.getComida();
     }
 
 }
